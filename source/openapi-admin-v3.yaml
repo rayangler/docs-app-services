@@ -5648,16 +5648,11 @@ components:
                 [Deprecated] The configuration for a third-party service.
               
     ServiceResponse:
-      type: object
-      properties:
-        name:
-          type: string
-        _id:
-          type: string
-        version: 
-          type: number
-        last_modified: 
-          type: number
+      _id: string;
+      name: string;
+      type: string;
+      version: number;
+      last_modified: number;
   
 
     CreateServiceRequest:
