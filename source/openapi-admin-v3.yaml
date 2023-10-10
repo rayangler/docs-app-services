@@ -5692,7 +5692,6 @@ components:
                 The type of service.
             flexible_sync:
               type: object
-              properties:
             groupName:
               type: string
               example: Project 0
