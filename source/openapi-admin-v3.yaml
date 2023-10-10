@@ -5716,7 +5716,7 @@ components:
             readPreferenceTagSets:
               type: array
               items:
-              $ref: "#/components/schemas/ReadPreferencesTagSet"
+                $ref: "#/components/schemas/ReadPreferencesTagSet"
               description: |-
                 Target read operations to specific members of a replica set.
             wireProtocolEnabled:
