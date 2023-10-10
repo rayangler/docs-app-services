@@ -5648,11 +5648,16 @@ components:
                 [Deprecated] The configuration for a third-party service.
               
     ServiceResponse:
-      _id: string;
-      name: string;
-      type: string;
-      version: number;
-      last_modified: number;
+      type: object
+      properties:
+        name:
+          type: string
+        _id:
+          type: string
+        version: 
+          type: number
+        last_modified: 
+          type: number
   
 
     CreateServiceRequest:
@@ -5686,6 +5691,7 @@ components:
                 The type of service.
             flexible_sync:
               type: object
+              properties:
             groupName:
               type: string
               example: Project 0
