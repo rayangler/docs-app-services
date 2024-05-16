@@ -113,3 +113,11 @@ Inherited Options
      - 
      - false
      - Automatically proceed through CLI commands by agreeing to any required user prompts
+
+.. list-table::
+   :widths: 20 20 60
+   :header-rows: 1
+
+   * - Scalar
+     - Data Type
+     - Description
